@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Breeze Flooring</title>
+</head>
+<style>
+	h1{
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 0px;
+		margin-top: 5px;
+		text-shadow:3px 3px 3px #3a8a8a;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	}
+	
+	h2{
+		text-align: center;
+		font-size: 35px;
+		margin: 0px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+	}
+	h3{
+		margin: 8px;
+		font-size: 30px;
+		text-align: center;
+	}
+	h4{
+		text-shadow:3px 3px 3px #3a8a8a;
+		margin: 8px;
+		font-size: 35px;
+		text-align: center;
+	}
+	
+	
+	div.menu{
+		list-style-type: none;
+		overflow: hidden;
+		background-color: #3A8A8A;
+		border-style: solid;
+		border-width: 1px;
+		margin:10px;
+	}
+	li{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		float:right;
+	}
+	li:first-child{
+		border-left:none;
+  		border-right:none;
+		float:left;
+  		color:black;
+	}
+	li a{
+		display:block;
+		color:black;
+		text-align:center;
+		padding: 0px 0px;
+		text-decoration: none;
+	}
+	li a:hover{
+		background-color:#90D0D0;
+	}
+	
+	div.text-box{
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-color: rgba(58,138,138,0.75);
+		padding-bottom: 30px;
+		width: 600px;
+	}
+	
+	img{
+		height: 50px;
+		margin-top: 10px;
+	}
+	
+	div.center{
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+
+<body background="file:///C:/Users/rebec/Desktop/breeze-flooring-website/wood_decking_3840x2555.jpg">
+	
+	<div class="menu">
+		<li><h4>Breeze Flooring </h4></li>
+   	 	<li><h3><a href="">Services</a></h3></li>
+    	<li><h3><a href="">Gallery</a></h3></li>
+    	<li><h3><a href="">Contact</a></h3></li>
+	</div>
+	
+	<h1>Contact Us</h1>
+	
+	<div class="text-box">
+		<form action="consultantform.php" method="post">
+			<table align="center">
+				<tr>
+					<td colspan="2"><h3>Contact us to get a free estimate!</h3></td>
+				</tr>
+				<tr>
+					<td width="55">Name</td>
+					<td width="352"><input name="name" type="text" size="60" maxlength="50"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td width="352"><input name="email" type="text" size="60" maxlength="100"></td>
+				</tr>
+				<tr>
+					<td>Phone #</td>
+					<td width="352"><input name="number" type="text" size="60" maxlength="10"></td>
+				</tr>
+				<tr>
+					<td>Message</td><br>
+					<td><textarea rows="15" cols="50" name="message" maxlength="300"></textarea></td>
+				</tr> 
+				
+				<tr>
+					<td></td>
+					<td align="center"><input name="submit" type="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	
+	<h2>or call</h2>
+	<h1>313-123-4567</h1>
+	<div class="center">
+		<img src="fb.png"> 
+		<img src="insta.png">
+		<img src="twit.png">
+	</div>
+	
+</body>
+</html>
