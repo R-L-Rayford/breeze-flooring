@@ -1,6 +1,7 @@
 <!doctype html>
 <?php
-$name = $_POST['name'];
+$fname = $_POST['fname'];
+$lname = $_POST['lname'];
 $email = $_POST['email'];
 $phone = $_POST['number'];
 $message = $_POST['message'];
@@ -8,7 +9,7 @@ $message = $_POST['message'];
 $to = "rrayford@emich.edu";
 $subject = "New Web Inquiry!";
 $header = "From: $email";
-$body = "You have received a new inquiry from :\n\nNAME:\t\t ".$name."\nEMAIL: ".$email."\n\nMESSAGE:\t\t ".$message;
+$body = "You have received a new inquiry from :\n\nNAME:\t\t ".$fname." ".$lname."\nEMAIL: ".$email."\n\nMESSAGE:\t\t ".$message;
 
 //make changes to script once I have a 'thank you' page. Will also need to add 'error' page to else block
 
